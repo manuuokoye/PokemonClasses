@@ -2,6 +2,7 @@ class Squirtle:
     def __init__(self):
         self.hp = 44
         self.pp = 300
+        self.xp = 0
     def max_stats(self):
         self.max_hp = 44
         self.max_pp = 300
