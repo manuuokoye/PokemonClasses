@@ -8,12 +8,16 @@ class Squirtle:
         self.max_pp = 300
     def water_gun(self):
         self.pp -= 25
+        self.damage = 35
     def bite(self):
         self.pp -= 25
+        self.damage = 15
     def skull_bash(self):
         self.pp -= 10
+        self.damage = 17.8
     def hydro_pump(self):
         self.pp -= 5
+        self.damage = 5
 
     def being_attacked(self, damage):
         self.hp -= damage
